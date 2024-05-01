@@ -26,22 +26,48 @@ x.h<!doctype html>
          <div class='my-5'></div>
          <h1>Distribution by Gender</h1>
          <div class='my-5'></div>
+            <p>The following graphs explore arrests and crime victims in the context of gender. The data is filtered by male and female. The crime victim dataset contains a small portion of data labeled gender "X". For the purposes of comparison crimes and arrests, this data was not considered in the creation of the gender graphs. </p>
+         <div class='my-5'></div>
          <picture>
             <embed src="./gender_bar_graph.html"
         type="text/html" height=700" width="1000" />
          </picture>
          <div class='my-5'></div>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eveniet fugit exercitationem earum quod. Ad doloribus dignissimos quaerat error aspernatur est, voluptatem deserunt at, dolores asperiores incidunt eligendi commodi sapiente.</p>
+         <p>Based on the bar graph, the following conclusions can be made: 
+            <li>Males were crime victims more often than females.</li>
+            <li>Males were arrested more often than females.</li>
+            <li>The difference between male crime victims and female crime victims is not extremely large, at about 38,000, suggesting that the likelihood of being a crime victim is not heavily dependent on gender.</li>
+            <li>The difference between males arrested and females arrested is very large, at about 160,000, suggesting that males are committing far more crimes than females or the police have a bias against men.</li>
+            <li>Females are far more likely to be a victim of a crime than to commit a crime.</li>
+         </p>
+         <div class='my-5'></div>
+         <p> Crime Victims and Arrests can be further broken down by crime. </p>
          <div class='my-5'></div>
          <picture>
             <embed src="./arrest_sunburst.html"
         type="text/html" height="1200" width="1200" />
          </picture>
          <div class='my-5'></div>
+         <p>In filtering by gender and crime for arrested individuals, the following conclusions can be made: 
+            <li>Males make up more than three-quarters of individuals arrested.</li>
+            <li>Aggravated Assault is a leading cause of arrest across both genders; it is the top cause of arrest for females and the second highest cause for men.</li>
+            <li>Prostitution is a leading cause of arrest for females but it is a much less prominent cause for men.</li>
+            <li>In general, males and females share the same leading arrest causes, including driving under the influence, larceny, vehicle possession, general assault, and drug use.</li>
+            <li>Many of the arrests in the dataset do not have an associated crime listed. This could be indicative of disorganization in the criminal system or a lack of attention in the creation of this specific dataset.</li>
+         </p>
+         <div class='my-5'></div>
          <picture>
             <embed src="./crime_sunburst.html"
         type="text/html" height="1200" width="1200" />
          </picture>
+         <div class='my-5'></div>
+         <p>Looking at gender and crime victims reveals the following: 
+            <li>Intimate partner simple assault was the leading crime that women fell victim to. However, intimate partner assault was the 11th leading crime that men fell victim to. Similarly, intimate partner aggravated assault was the 11th most frequent crime for female victims, but the 20th most frequent crime for male victims. Therefore, women are far more likely to be victims of intimate partner assault than men.</li>
+            <li>Aside from intimate assault, there is no single crime that appears to be far more likely for a specific gender. The distribution of crime is relatively similar regardless of gender.</li>
+            <li>Across both genders, many people are victims of burglary. Burglary from vechicle is more common than burglary for both genders.</li>            
+            <li>Assault is involved in many of the leading crimes for both genders (including battery and assault with deadly weapon).</li>
+            <li>There is great variety in the crimes that people in Los Angeles fell victim to.</li>
+         </p> 
          <div class='my-5'></div>
       </div>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
